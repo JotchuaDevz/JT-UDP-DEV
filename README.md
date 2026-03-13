@@ -1,11 +1,11 @@
-# TFN-UDP Custom Script
+# JT-UDP Custom Script
 
 A customized UDP script installer that uses Hysteria server core. This script supports user management and automatic configuration of UDP services.
 
 ## Installation
 
 ```bash
-curl -sL https://raw.githubusercontent.com/hahacrunchyrollls/TFN-UDP/refs/heads/main/install | bash
+curl -sL https://raw.githubusercontent.com/JotchuaDevz/JT-UDP-DEV/refs/heads/main/install_udp.sh | bash
 ```
 
 ## Post-Installation
@@ -24,7 +24,7 @@ udp
 ## Credits
 
 - Credits to: Khaled AGN
-- Modified by: Jerico
+- Modified by: JotchuaDevz
 - Based on Hysteria server core
 
 ## Warning
