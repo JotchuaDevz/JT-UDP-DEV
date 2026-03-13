@@ -633,7 +633,7 @@ instalar_script_gestor() {
     local _enlace_simbolico="/usr/local/bin/udp"
 
     echo "Descargando script del gestor..."
-    curl -o "$_script_gestor" "https://raw.githubusercontent.com/hahacrunchyrollls/TFN-UDP/refs/heads/main/menu.sh"
+    curl -o "$_script_gestor" "https://raw.githubusercontent.com/JotchuaDevz/JT-UDP-DEV/refs/heads/main/menu.sh"
     chmod +x "$_script_gestor"
 
     echo "Creando enlace simbólico para ejecutar el gestor con el comando 'udp'..."
