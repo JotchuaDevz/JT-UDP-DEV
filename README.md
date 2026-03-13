@@ -16,6 +16,13 @@ After installation, you can manage the UDP service using the command:
 udp
 ```
 
+## APP URI (REQUESTLAB X)
+```bash
+═══════════ App URI ═══════════
+udp-hysteria-labx://192.168.1.1:36712?auth=jotchua%3Amypassword&obfs=jt&up_mbps=100&down_mbps=100&listen=127.0.0.1:1080&recv_window_conn=4194304&insecure=true&retry_interval=1
+═══════════════════════════════
+```
+
 ## IMAGE
 
 ![image](https://github.com/user-attachments/assets/5185d7e6-d116-4e02-8cc0-4fed725bcbc5)
