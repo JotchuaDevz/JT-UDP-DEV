@@ -25,7 +25,7 @@ udp-hysteria-labx://192.168.1.1:36712?auth=jotchua%3Amypassword&obfs=jt&up_mbps=
 
 ## IMAGE
 
-![image](https://github.com/user-attachments/assets/5185d7e6-d116-4e02-8cc0-4fed725bcbc5)
+![image](https://github.com/JotchuaDevz/JT-UDP-DEV/blob/main/Picsart_26-03-13_21-37-02-351.jpg)
 
 
 ## Credits
