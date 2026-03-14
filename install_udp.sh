@@ -726,6 +726,8 @@ realizar_eliminacion() {
     echo
     echo -e "Aún necesitas eliminar los archivos de configuración y certificados ACME manualmente con los siguientes comandos:"
     echo
+    echo - e "Reiniciando VPS"
+    reboot
     echo -e "\t$(trojo)rm -rf "$CONFIG_DIR"$(treset)"
     if [[ "x$HYSTERIA_USER" != "xroot" ]]; then
         echo -e "\t$(trojo)userdel -r "$HYSTERIA_USER"$(treset)"
