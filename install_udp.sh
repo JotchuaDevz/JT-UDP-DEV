@@ -504,7 +504,7 @@ tpl_config_json_hysteria() {
   "down": "100 Mbps",
   "down_mbps": 100,
   "disable_udp": false,
-  "insecure": false,
+  "insecure": true,
   "obfs": "$OBFS",
   "auth": {
     "mode": "passwords",
