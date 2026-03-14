@@ -68,8 +68,8 @@ generar_uri_hysteria() {
     local down_mbps=$(jq -r ".down_mbps" "$CONFIG_FILE")
     local insecure=$(jq -r ".insecure" "$CONFIG_FILE")
     local listen="127.0.0.1:1080"
-    local puerto="36712"
-    local recv_window_conn="4194304"
+    local puerto="1-65000"
+    local recv_window_conn="196608"
 
     echo "udp-hysteria-labx://${ip_servidor}:${puerto}?auth=${usuario}%3A${contrasena}&obfs=${obfs}&up_mbps=${up_mbps}&down_mbps=${down_mbps}&listen=${listen}&recv_window_conn=${recv_window_conn}&insecure=${insecure}&retry_interval=1"
 }
